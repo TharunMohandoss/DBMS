@@ -1,0 +1,21 @@
+#top {
+	height: 200px;
+    width: 100%;
+    /*background-color: rgba(220,220,220,0.5);*/
+    background-image: url('kaigari.png');
+    opacity: 0.3;
+    background-size: 100%;
+}
+.SignIn{
+	background-color: rgb(255,100,20);
+}
+#SignIn{
+	position:absolute;
+	right:80px;
+	top:50px;
+}
+#SignUp{
+	position:absolute;
+	right:205px;
+	top:50px;
+}
