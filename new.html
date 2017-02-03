@@ -3,16 +3,28 @@
 	<head>
 		<title>Welcome</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+		<script src="jquery.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
- 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-    	<link rel="stylesheet" type="text/css" href="new.css">
-    	<script src="myscripts.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="materialize.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="new.css">
+		<script src="new.js"></script>
 	</head>
 	<body>
-		<div id = "top"></div>
+		<div id = "top">
+		</div>
+		<div id ="topStuff">
+			<a id="SignUp" class="waves-effect waves-light btn SignIn">Sign Up</a>
+			<a id="SignIn" class="waves-effect waves-light btn SignIn">Sign In</a>
+			<div id ="search">
+				<div id="icon">
+					<img src="trans.png" id ="searchIcon" ></img>
+				</div>
+				<input id="searchText" type="text" name="search" placeholder="Search.."></input>
+				<!-- <button id="searchButton">Search</button> -->
+			</div>
+		</div>
 		<div class = "container">
-		<a id="SignUp" class="waves-effect waves-light btn SignIn">Sign Up</a>
-		<a id="SignIn" class="waves-effect waves-light btn SignIn">Sign In</a>
 		</div>
 	</body>
 </html>

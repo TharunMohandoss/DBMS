@@ -19,3 +19,32 @@
 	right:205px;
 	top:50px;
 }
+#searchIcon{
+	height:30px;
+	width:30px;
+}
+#search{
+	position: absolute;
+	left:10%;
+	top:60px;
+}
+#icon{
+	position:relative;
+	left:355px;
+}
+#searchText{
+	width:300px;
+	height:15px;
+	position:relative;
+	padding: 9px;
+	left:30px;
+	top:-40px;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: rgb(200,200,255);
+}/*
+#searchButton{
+	border-radius:5px;
+	background-color:rgb(255,100,20);
+	color:rgb(255,255,255);
+}*/
