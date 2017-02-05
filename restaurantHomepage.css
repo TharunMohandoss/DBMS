@@ -1,0 +1,74 @@
+html{
+	background-color: rgb(240,240,240);
+}	
+#top {
+	height: 200px;
+    width: 100%;
+    /*background-color: rgba(220,220,220,0.5);*/
+    background-image: url('kaigari.png');
+    opacity: 0.3;
+    background-size: 100%;
+}
+#Hello{
+	position:absolute;
+	right:80px;
+	top:50px;
+	font-family:comic-sans-ms;
+	font-size:19px;
+}
+#box{
+	
+}
+#searchIcon{
+	height:30px;
+	width:30px;
+}
+#search{
+	position: absolute;
+	left:30%;
+	top:55px;
+}
+#icon{
+	position:relative;
+	left:355px;
+}
+#Khaopic{
+	position: absolute;
+	left:-300px;
+	top :-20px;
+	border-radius:13px;
+}
+#searchText{
+	width:300px;
+	height:15px;
+	position:relative;
+	padding: 9px;
+	left:30px;
+	top:-40px;
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: rgb(200,200,255);
+}	
+#PendingHeading{
+	font-family:Comic-Sans-MS;
+	font-size:25px;
+	font-weight:500;
+	position: relative;
+	top:50px;
+}
+#CurrentPendingTable{
+	position: relative;
+	top:60px;
+}
+.clickable{
+	 cursor: pointer;
+}
+.SignIn{
+	background-color: rgb(255,100,20);
+}
+#PreviousOrdersRedirect{
+	position: relative;
+}
+#PendingOrdersRedirect{
+	position: relative;
+}

@@ -1,3 +1,6 @@
+html{
+	background-color: rgb(240,240,240);
+}	
 #top {
 	height: 200px;
     width: 100%;
@@ -14,6 +17,9 @@
 	right:80px;
 	top:50px;
 }
+#box{
+	
+}
 #SignUp{
 	position:absolute;
 	right:205px;
@@ -25,12 +31,18 @@
 }
 #search{
 	position: absolute;
-	left:10%;
-	top:60px;
+	left:30%;
+	top:55px;
 }
 #icon{
 	position:relative;
 	left:355px;
+}
+#Khaopic{
+	position: absolute;
+	left:-300px;
+	top :-20px;
+	border-radius:13px;
 }
 #searchText{
 	width:300px;
@@ -42,7 +54,35 @@
     border: 2px solid;
     border-radius: 25px;
     border-color: rgb(200,200,255);
-}/*
+}
+#heading{
+	font-size:27px;
+	font-family: Courier New;
+	position:relative;
+	top:40px;
+	font-weight: 700;
+}
+#main{
+	position: relative;
+	top:100px;
+}
+.RestaurantPic{
+	width:100%;
+	height:150px;
+	background-image: url('one.jpg');
+	background-size:cover;
+	border-radius: 7px;
+}
+.card{
+	background-color:white;
+}
+.Name{
+	font-size:20px;
+}
+#RestaurantText{
+	height:100px;
+}
+/*
 #searchButton{
 	border-radius:5px;
 	background-color:rgb(255,100,20);

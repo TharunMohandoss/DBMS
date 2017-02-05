@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Welcome</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+		<script src="jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="materialize.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="order.css">
+		<script src="order.js"></script>
+	</head>
+	<body>
+		<div id = "top">
+		</div>
+		<div id ="topStuff">
+			<a id="SignUp" class="waves-effect waves-light btn SignIn">Sign Up</a>
+			<a id="SignIn" class="waves-effect waves-light btn SignIn">Sign In</a>
+			<div id ="search">
+				<div id="icon">
+					<img src="trans.png" id ="searchIcon" ></img>
+				</div>
+				<input id="searchText" type="text" name="search" placeholder="Search.."></input>
+				<div id="pic"><img id="Khaopic" src="khao.png" ></img></div>
+				<!-- <button id="searchButton">Search</button> -->
+			</div>
+		</div>
+		<div id = "bottom">
+			<div id="box" class = "container">
+				<div class="containerTwo">
+					<div id = "picture"></div>
+					<div id="Name">Tamrolipto</div>
+					<div id="description">A nice place to eat with a lot of tasty topStuff. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque efficitur neque at luctus malesuada. Vivamus consectetur fringilla ex, in lobortis nisl. Donec volutpat felis vel nunc convallis faucibus. Phasellus malesuada feugiat sem nec vulputate. Nunc tempus id lectus gravida faucibus. In neque metus, condimentum nec scelerisque quis, venenatis ac diam. Nam turpis nisi, feugiat nec aliquet vitae, bibendum ut ipsum. Integer pulvinar eu sapien non viverra. Phasellus aliquet purus non malesuada tempor. Cras scelerisque facilisis elit eget lobortis. Proin sagittis, odio eget volutpat interdum, lacus felis sagittis nisi, eu venenatis lorem risus vel massa. Nunc quis sapien consequat, fringilla leo eu, faucibus erat. Donec ac molestie arcu, non euismod tellus. Integer viverra velit eu diam pharetra tempus. Fusce fringilla lacinia condimentum. Curabitur placerat ac dui nec efficitur.</div>
+					<div id = "MenuHeading">MENU</div>
+					<div id = "MenuTable">
+						<table class="bordered striped">
+							<thead>
+								<tr>
+								<td>
+									Name
+								</td>
+								<td>
+									Price
+								</td>
+								<td>
+									Quantity
+								</td>
+									
+								</tr>
+							</thead>
+							<tbody id ="rows">
+							</tbody>
+						</table>
+					</div>
+					<div id ="TotalCost">TotalCost : 0Rs</div>
+					<div id = "PlaceOrder"><button class = "waves-effect waves-light btn">Place Order</button></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

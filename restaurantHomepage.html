@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Welcome</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+		<script src="jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="materialize.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="restaurantHomepage.css">
+		<script src="restaurantHomepage.js"></script>
+	</head>
+	<body>
+		<div id = "top">
+		</div>
+		<div id ="topStuff">
+			<div id="Hello">Hi, M Tharun</div>
+			<div id ="search">
+				<div id="icon">
+					<img src="trans.png" id ="searchIcon" ></img>
+				</div>
+				<input id="searchText" type="text" name="search" placeholder="Search.."></input>
+				<div id="pic"><img id="Khaopic" src="khao.png" ></img></div>
+				<!-- <button id="searchButton">Search</button> -->
+				<button id ="PreviousOrdersRedirect" class="SignIn waves-effect waves-light btn ">Previous Orders</button>	
+				<button id ="PendingOrdersRedirect" class="SignIn waves-effect waves-light btn ">Pending Orders</button>
+			</div>
+		</div>
+		<div id="box" class = "container">
+			<div id="PendingHeading">Current order requests:</div>
+			<table id = "CurrentPendingTable" class="bordered striped">
+				<thead>
+					<tr>
+						<td>Address</td>
+						<td>TotalCost</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody id="rows">
+					
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
