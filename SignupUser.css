@@ -1,0 +1,81 @@
+html{
+	background-color: rgb(240,240,240);
+}	
+#top {
+	height: 200px;
+    width: 100%;
+    /*background-color: rgba(220,220,220,0.5);*/
+    background-image: url('kaigari.png');
+    opacity: 0.3;
+    background-size: 100%;
+}
+#Khaopic{
+	position: absolute;
+	left:50px;
+	top :40px;
+	border-radius:13px;
+}
+#SignUpHeading{
+	font-weight: 500;
+	font-size:23px;
+	position: relative;
+	top:30px;
+}
+#first_name{
+	position: relative;
+	top:70px;
+	width:450px;
+}
+#firstNameLabel{
+	position: relative;
+	top:50px;
+	left:-455px;
+}
+#last_name{
+	position: relative;
+	top:70px;
+	width:450px;
+}
+#lastNameLabel{
+	position: relative;
+	top:50px;
+	left:-455px;
+}
+#phone{
+	position: relative;
+	top:70px;
+	width:450px;
+}
+#phoneLabel{
+	position: relative;
+	top:50px;
+	left:-455px;
+}
+#email{
+	position: relative;
+	top:70px;
+	width:450px;
+}
+#emailLabel{
+	position: relative;
+	top:50px;
+	left:-455px;
+}
+#Address{
+	position: relative;
+	top:70px;
+	width:450px;
+}
+#AddressLabel{
+	position: relative;
+	top:50px;
+	left:-455px;
+}
+#SignUpButton{
+	position: relative;
+	top:100px;
+	left:-5px;
+}
+body{
+	height:750px;
+}
