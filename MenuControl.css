@@ -31,7 +31,7 @@ html{
 	left:190px;
 	top:60px;
 }
-#MenuControlRedirect{
+#HomeRedirect{
 	position: relative;
 	width:200px;
 	left:-220px;
@@ -70,17 +70,51 @@ html{
     border-radius: 25px;
     border-color: rgb(200,200,255);
 }	
-#PendingHeading{
-	font-family:Comic-Sans-MS;
-	font-size:25px;
-	font-weight:500;
+#currentMenuHeading{
+	font-size:23px;
+	font-weight: 500;
 	position: relative;
-	top:50px;
+	font-family: Comic-Sans-MS;
+	top:30px;
 }
-#CurrentPendingTable{
+#currentable{
+	position: relative;
+	top:40px;
+}
+#AddHeading{
+	position: relative;
+	top:110px;
+	left:10px;
+	font-size: 22px;
+	font-family: Comic;
+}
+#inputName{
+	position: relative;
+	top:90px;
+	width:300px;
+	left:80px;
+}
+#inputCost{
 	position: relative;
 	top:60px;
+	width:300px;
+	left:80px;
 }
-.clickable{
-	 cursor: pointer;
+#askName{
+	position: relative;
+	top:130px;
+	left:10px;
+}
+#askCost{
+	position: relative;
+	top:100px;
+	left:10px;
+}
+#addButton{
+	position: relative;
+	top:140px;
+	left:-295px;
+}
+body{
+	height:1000px;
 }

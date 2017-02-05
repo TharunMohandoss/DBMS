@@ -1,0 +1,7 @@
+1.Homepage with and without login,
+2.Customer order page, cart. 
+2.Homepage of restaurant agent with current pending orders and requests of orders to be accepted/rejected. 
+3.Previous orders page of both customer and restaurant. 
+4.Menu and price control page for restaurant. 
+5.Customer order tracking page. 
+6.SignUp pages

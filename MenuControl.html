@@ -7,8 +7,8 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src="materialize.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="restaurantHomepage.css">
-		<script src="restaurantHomepage.js"></script>
+		<link rel="stylesheet" type="text/css" href="MenuControl.css">
+		<script src="MenuControl.js"></script>
 	</head>
 	<body>
 		<div id = "top">
@@ -18,19 +18,18 @@
 			<div id ="search">
 				<div id="pic"><img id="Khaopic" src="khao.png" ></img></div>
 				<!-- <button id="searchButton">Search</button> -->
-				<button id ="PreviousOrdersRedirect" class="SignIn waves-effect waves-light btn ">Previous Orders</button>	
+				<button id ="PreviousOrdersRedirect" class="SignIn waves-effect waves-light btn ">Previous Orders</button>
 				<button id ="PendingOrdersRedirect" class="SignIn waves-effect waves-light btn ">Pending Orders</button>
-				<button id ="MenuControlRedirect" class="SignIn waves-effect waves-light btn ">Menu Control</button>
+				<button id ="HomeRedirect" class="SignIn waves-effect waves-light btn ">Home</button>
 			</div>
 		</div>
 		<div id="box" class = "container">
-			<div id="PendingHeading">Current order requests:</div>
-			<table id = "CurrentPendingTable" class="bordered striped">
+			<div id="currentMenuHeading">Current Menu:</div>
+			<table id ="currentable" class="bordered striped">
 				<thead>
 					<tr>
-						<td>Address</td>
-						<td>TotalCost</td>
-						<td></td>
+						<td>Name</td>
+						<td>Cost</td>
 						<td></td>
 					</tr>
 				</thead>
@@ -38,6 +37,12 @@
 					
 				</tbody>
 			</table>
+			<div id="AddHeading">Add New Item :</div>
+			<div id="askName">Name : </div>
+			<input id="inputName"></input>
+			<div id="askCost">Cost : </div>
+			<input type="number" min="0" id="inputCost"></input>
+			<button id="addButton" class="waves-effect waves-light btn ">Add</button>
 		</div>
 	</body>
 </html>

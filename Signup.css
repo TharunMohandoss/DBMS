@@ -1,0 +1,27 @@
+html{
+	background-color: rgb(240,240,240);
+}	
+#top {
+	height: 200px;
+    width: 100%;
+    /*background-color: rgba(220,220,220,0.5);*/
+    background-image: url('kaigari.png');
+    opacity: 0.3;
+    background-size: 100%;
+}
+#Khaopic{
+	position: absolute;
+	left:100px;
+	top :60px;
+	border-radius:13px;
+}
+#SignUpAsUser{
+	position: relative;
+	top:50px;
+	left:300px;
+}
+#SignUpAsAgent{
+	position: relative;
+	top:150px;
+	left:105px;
+}
